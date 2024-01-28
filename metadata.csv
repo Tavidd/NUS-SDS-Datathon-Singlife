@@ -1,0 +1,247 @@
+column_name,is_numeric,is_date,to_delete,requires_preprocessing,remarks
+affcon_visit_days,1,0,0,0,Metric related to client’s activity in affinity connect
+annual_income_est,0,0,0,1,This column is the client’s income bracket. Will need to make it into an ordered factor
+ape_507c37,1,0,0,0,
+ape_839f8a,1,0,0,0,
+ape_c4bda5,1,0,0,0,"This column is 0 for all, except 5 rows. But the values (assumedly $ amount) in these 5 rows are all very large, which could indicate significance"
+ape_e22a6a,1,0,0,0,
+ape_grp_1581d7,1,0,0,0,
+ape_grp_22decf,1,0,0,0,
+ape_grp_6a5788,1,0,0,0,
+ape_grp_6fc3e6,1,0,0,0,
+ape_grp_70e1dd,1,0,0,0,
+ape_grp_945b5a,1,0,0,0,
+ape_grp_94baec,1,0,0,0,
+ape_grp_9cdedf,1,0,0,0,
+ape_grp_caa6ff,1,0,0,0,
+ape_grp_de05ae,1,0,0,0,
+ape_grp_e04c3a,1,0,0,0,
+ape_grp_e91421,1,0,0,0,
+ape_grp_fd3bfb,1,0,0,0,
+ape_grp_fe5fb8,1,0,0,0,
+ape_inv_e9f316,1,0,0,0,
+ape_lh_507c37,1,0,0,0,
+ape_lh_839f8a,1,0,0,0,
+ape_lh_947b15,1,0,0,0,
+ape_lh_e22a6a,1,0,0,0,
+ape_lh_f852af,1,0,0,0,
+ape_ltc_43b9d5,1,0,0,0,
+clmcon_visit_days,1,0,0,0,17203 blanks
+clntnum,0,0,0,0,Primary key
+cltdob_fix,1,1,0,1,Come up with a numerical ‘age’ column
+cltsex_fix,0,0,0,1,One hot
+clttype,0,0,0,1,One hot
+ctrycode_desc,0,0,0,1,Group to “Singapore” and “Others”
+f_elx,0,0,0,0,"Possible values: 1, 0. Related to client's association with specific programs or sectors"
+f_ever_bought_507c37,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_839f8a,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_c4bda5,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_e22a6a,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_gi,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_1581d7,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_22decf,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_6a5788,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_6fc3e6,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_70e1dd,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_945b5a,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_94baec,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_9cdedf,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_caa6ff,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_de05ae,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_e04c3a,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_e91421,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_fd3bfb,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_grp_fe5fb8,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_inv_e9f316,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_lh_507c37,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_lh_839f8a,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_lh_947b15,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_lh_e22a6a,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_lh_f852af,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_ltc,0,0,0,1,"Possible values: 1, 0"
+f_ever_bought_ltc_43b9d5,0,0,0,1,"Possible values: 1, 0"
+f_ever_declined_la,0,0,0,1,"Possible values: 1, NA"
+f_hold_507c37,0,0,0,1,"Possible values: 1, 0"
+f_hold_839f8a,0,0,0,1,"Possible values: 1, 0"
+f_hold_c4bda5,0,0,0,1,"Possible values: 1, 0"
+f_hold_e22a6a,0,0,0,1,"Possible values: 1, 0"
+f_hold_ltc,0,0,0,1,"Possible values: 1, 0"
+f_mindef_mha,0,0,0,1,"Related to client's association with specific programs or sectors. Possible values: 1, 0"
+f_purchase_lh,0,0,0,1,"Possible values: 1, NA"
+f_retail,0,0,0,1,"Possible values: 1, 0"
+flg_affconnect_lapse_ever,0,0,0,1,"Possible values: 1, 0, NA"
+flg_affconnect_ready_to_buy_ever,0,0,0,1,"Possible values: 1, NA"
+flg_affconnect_show_interest_ever,0,0,0,1,"Possible values: 1, NA"
+flg_gi_claim,0,0,0,1,"Possible values: 1, 0, NA"
+flg_has_health_claim,0,0,0,1,"Possible values: 1, 0, NA"
+flg_has_life_claim,0,0,0,1,"Possible values: 1, 0, NA"
+flg_hlthclaim_14cb37_ever,0,0,0,1,"Possible values: 1, NA"
+flg_hlthclaim_839f8a_ever,0,0,0,1,"Possible values: 1, NA"
+flg_is_borderline_standard,0,0,0,1,"Possible values: 1, 0, NA"
+flg_is_proposal,0,0,0,1,"Possible values: 1, 0, NA"
+flg_is_rental_flat,0,0,0,1,"Possible values: 1, 0, NA"
+flg_is_returned_mail,0,0,0,1,"Possible values: 1, 0, NA"
+flg_is_revised_term,0,0,0,1,"Possible values: 1, 0, NA"
+flg_latest_being_cancel,0,0,0,1,"Possible values: 1, 0"
+flg_latest_being_lapse,0,0,0,1,"Possible values: 1, 0"
+flg_substandard,0,0,0,1,"Possible values: 1, 0, NA"
+flg_with_preauthorisation,0,0,0,1,"Possible values: 1, 0, NA"
+giclaim_amt,1,0,0,0,
+hh_20,1,0,0,,
+hh_size,1,0,0,0,
+hh_size_est,0,0,0,1,"Possible values: 0,1,2,3,4,>4. Can modify “>4” to “5”? Will need to make it into an ordered factor"
+hlthclaim_amt,1,0,0,,"(Maybe change to 0 if NA, 1 if got value? Coz 16543 rows are NAs)"
+hlthclaim_cnt_success,1,0,0,,
+hlthclaim_cnt_unsuccess,1,0,0,,
+is_class_1_2,0,0,0,1,"Possible values: 1, 0, NA"
+is_consent_to_call,0,0,0,1,"Possible values: 1, 0, NA"
+is_consent_to_email,0,0,0,1,"Possible values: 1, 0, NA"
+is_consent_to_mail,0,0,0,1,"Possible values: 1, 0, NA"
+is_consent_to_sms,0,0,0,1,"Possible values: 1, 0, NA"
+is_dependent_in_at_least_1_policy,0,0,0,1,"Possible values: 0, NA"
+is_housewife_retiree,0,0,0,1,"Possible values: 1, 0, NA"
+is_sg_pr,0,0,0,1,"Possible values: 1, 0, NA"
+is_valid_dm,0,0,0,1,"Possible values: 1, 0, NA"
+is_valid_email,0,0,0,1,"Possible values: 1, 0, NA"
+lapse_ape_32c74c,1,0,0,,
+lapse_ape_grp_1581d7,1,0,0,,
+lapse_ape_grp_22decf,1,0,0,,
+lapse_ape_grp_6a5788,1,0,0,,
+lapse_ape_grp_6fc3e6,1,0,0,,
+lapse_ape_grp_70e1dd,1,0,0,,
+lapse_ape_grp_945b5a,1,0,0,,
+lapse_ape_grp_94baec,1,0,0,,
+lapse_ape_grp_9cdedf,1,0,0,,
+lapse_ape_grp_caa6ff,1,0,0,,
+lapse_ape_grp_de05ae,1,0,0,,
+lapse_ape_grp_e04c3a,1,0,0,,
+lapse_ape_grp_e91421,1,0,0,,
+lapse_ape_grp_fd3bfb,1,0,0,,
+lapse_ape_grp_fe5fb8,1,0,0,,
+lapse_ape_inv_dcd836,1,0,0,,
+lapse_ape_inv_e9f316,1,0,0,,
+lapse_ape_lh_507c37,1,0,0,,
+lapse_ape_lh_839f8a,1,0,0,,
+lapse_ape_lh_947b15,1,0,0,,
+lapse_ape_lh_d0adeb,1,0,0,,
+lapse_ape_lh_e22a6a,1,0,0,,
+lapse_ape_lh_f852af,1,0,0,,
+lapse_ape_ltc_1280bf,1,0,0,,
+lapse_ape_ltc_43b9d5,1,0,0,,
+min_occ_date,1,1,0,1,Change the date to how many days from present or latest date recorded
+n_months_last_bought_32c74c,1,0,0,,
+n_months_last_bought_507c37,1,0,0,,
+n_months_last_bought_839f8a,1,0,0,,
+n_months_last_bought_c4bda5,1,0,0,,
+n_months_last_bought_e22a6a,1,0,0,,
+n_months_last_bought_gi,1,0,0,,
+n_months_last_bought_grp_1581d7,1,0,0,,
+n_months_last_bought_grp_22decf,1,0,0,,
+n_months_last_bought_grp_6a5788,1,0,0,,
+n_months_last_bought_grp_6fc3e6,1,0,0,,
+n_months_last_bought_grp_70e1dd,1,0,0,,
+n_months_last_bought_grp_945b5a,1,0,0,,
+n_months_last_bought_grp_94baec,1,0,0,,
+n_months_last_bought_grp_9cdedf,1,0,0,,
+n_months_last_bought_grp_caa6ff,1,0,0,,
+n_months_last_bought_grp_de05ae,1,0,0,,
+n_months_last_bought_grp_e04c3a,1,0,0,,
+n_months_last_bought_grp_e91421,1,0,0,,
+n_months_last_bought_grp_fd3bfb,1,0,0,,
+n_months_last_bought_grp_fe5fb8,1,0,0,,
+n_months_last_bought_inv_e9f316,1,0,0,,
+n_months_last_bought_lh_507c37,1,0,0,,
+n_months_last_bought_lh_839f8a,1,0,0,,
+n_months_last_bought_lh_947b15,1,0,0,,
+n_months_last_bought_lh_e22a6a,1,0,0,,
+n_months_last_bought_lh_f852af,1,0,0,,
+n_months_last_bought_ltc,1,0,0,,
+n_months_last_bought_ltc_43b9d5,1,0,0,,
+n_months_last_bought_products,1,0,0,1,Delete the 8 rows where this column is negative (makes no sense for it to be negative)
+n_months_since_lapse_32c74c,1,0,0,,
+n_months_since_lapse_grp_1581d7,1,0,0,,
+n_months_since_lapse_grp_22decf,1,0,0,,
+n_months_since_lapse_grp_6a5788,1,0,0,,
+n_months_since_lapse_grp_6fc3e6,1,0,0,,
+n_months_since_lapse_grp_70e1dd,1,0,0,,
+n_months_since_lapse_grp_945b5a,1,0,0,,
+n_months_since_lapse_grp_94baec,1,0,0,,
+n_months_since_lapse_grp_9cdedf,1,0,0,,
+n_months_since_lapse_grp_caa6ff,1,0,0,,
+n_months_since_lapse_grp_de05ae,1,0,0,,
+n_months_since_lapse_grp_e04c3a,1,0,0,,
+n_months_since_lapse_grp_e91421,1,0,0,,
+n_months_since_lapse_grp_fd3bfb,1,0,0,,
+n_months_since_lapse_grp_fe5fb8,1,0,0,,
+n_months_since_lapse_inv_dcd836,1,0,0,,
+n_months_since_lapse_inv_e9f316,1,0,0,,
+n_months_since_lapse_lh_507c37,1,0,0,,
+n_months_since_lapse_lh_839f8a,1,0,0,,
+n_months_since_lapse_lh_947b15,1,0,0,,
+n_months_since_lapse_lh_d0adeb,1,0,0,,
+n_months_since_lapse_lh_e22a6a,1,0,0,,
+n_months_since_lapse_lh_f852af,1,0,0,,
+n_months_since_lapse_ltc_1280bf,1,0,0,,
+n_months_since_lapse_ltc_43b9d5,1,0,0,,
+n_months_since_visit_affcon,1,0,0,,
+pop_20,1,0,0,,
+prempaid_507c37,1,0,0,,
+prempaid_839f8a,1,0,0,,
+prempaid_c4bda5,1,0,0,,
+prempaid_e22a6a,1,0,0,,
+prempaid_grp_1581d7,1,0,0,,
+prempaid_grp_22decf,1,0,0,,
+prempaid_grp_6a5788,1,0,0,,
+prempaid_grp_6fc3e6,1,0,0,,
+prempaid_grp_70e1dd,1,0,0,,
+prempaid_grp_945b5a,1,0,0,,
+prempaid_grp_94baec,1,0,0,,
+prempaid_grp_9cdedf,1,0,0,,
+prempaid_grp_caa6ff,1,0,0,,
+prempaid_grp_de05ae,1,0,0,,
+prempaid_grp_e04c3a,1,0,0,,
+prempaid_grp_e91421,1,0,0,,
+prempaid_grp_fd3bfb,1,0,0,,
+prempaid_grp_fe5fb8,1,0,0,,
+prempaid_inv_e9f316,1,0,0,,
+prempaid_lh_507c37,1,0,0,,
+prempaid_lh_839f8a,1,0,0,,
+prempaid_lh_947b15,1,0,0,,
+prempaid_lh_e22a6a,1,0,0,,
+prempaid_lh_f852af,1,0,0,,
+prempaid_ltc,1,0,0,,
+prempaid_ltc_43b9d5,1,0,0,,
+race_desc,0,0,0,1,"One hot encoded with 5 values, not ordered. (Race)"
+recency_cancel,1,0,0,,
+recency_clmcon,1,0,0,,
+recency_clmcon_regis,1,0,0,,
+recency_giclaim,1,0,0,,
+recency_hlthclaim,1,0,0,,
+recency_hlthclaim_14cb37,1,0,0,,
+recency_hlthclaim_839f8a,1,0,0,,
+recency_hlthclaim_success,1,0,0,,
+recency_hlthclaim_unsuccess,1,0,0,,
+recency_lapse,1,0,0,,
+stat_flag,0,0,0,1,"One hot with 3 values (active, lapsed, matured)"
+sumins_507c37,1,0,0,,
+sumins_839f8a,1,0,0,,
+sumins_c4bda5,1,0,0,,
+sumins_grp_1581d7,1,0,0,,
+sumins_grp_6a5788,1,0,0,,
+sumins_grp_6fc3e6,1,0,0,,
+sumins_grp_70e1dd,1,0,0,,
+sumins_grp_945b5a,1,0,0,,
+sumins_grp_9cdedf,1,0,0,,
+sumins_grp_caa6ff,1,0,0,,
+sumins_grp_de05ae,1,0,0,,
+sumins_grp_e91421,1,0,0,,
+sumins_grp_fd3bfb,1,0,0,,
+sumins_grp_fe5fb8,1,0,0,,
+sumins_inv_e9f316,1,0,0,,
+sumins_lh_507c37,1,0,0,,
+sumins_lh_947b15,1,0,0,,
+sumins_lh_f852af,1,0,0,,
+sumins_ltc,1,0,0,,
+sumins_ltc_43b9d5,1,0,0,,
+tot_cancel_pols,1,0,0,,
+tot_inforce_pols,1,0,0,,
